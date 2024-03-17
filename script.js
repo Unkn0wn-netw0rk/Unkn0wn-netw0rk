@@ -114,11 +114,11 @@ particlesJS('particles-js', {
     }
 });
 
-function aud_play() {
+function audio_play() {
   var myAudio = document.getElementById("myAudio");
   if (myAudio.paused) {
     myAudio.play();
   } 
 }
 
-document.addEventListener("click", aud_play);
+document.addEventListener("click", audio_play);
