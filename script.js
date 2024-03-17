@@ -113,3 +113,12 @@ particlesJS('particles-js', {
         "background_size": "cover"
     }
 });
+
+function aud_play() {
+  var myAudio = document.getElementById("myAudio");
+  if (myAudio.paused) {
+    myAudio.play();
+  } 
+}
+
+document.addEventListener("click", aud_play);
